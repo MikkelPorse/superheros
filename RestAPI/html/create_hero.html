@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <form method="POST" name="createform" enctype="multipart/form-data"
+            action="http://127.0.0.1:5000/article">
+            <table>
+                <tr>
+                    <td><label for="herofile">hero file</label></td>
+                    <td><input type="file" name="herofile"></td>
+                </tr>
+                <tr>
+                    <td><label for="dc_or_marvel">Universe</label></td>
+                    <td>
+                        <input type="radio" value="dc" name="dc_or_marvel">DC Comics</input>
+                        <input type="radio" value="marvel" name="dc_or_marvel">Marvel Comics</input>
+                    </td>
+                </tr>
+                <tr>
+                     <td></td>
+                     <td><input type="submit" value="Create!"></input></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
